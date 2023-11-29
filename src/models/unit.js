@@ -16,8 +16,6 @@ module.exports = (sequelize, DataTypes) => {
   Unit.init({
     name: DataTypes.STRING,
     symbols: DataTypes.STRING,
-    unit: DataTypes.STRING,
-    roleid: DataTypes.STRING
 
   }, {
     sequelize,
